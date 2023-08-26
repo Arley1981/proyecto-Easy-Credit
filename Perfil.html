@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perfil del Cliente</title>
+  <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+  <div class="profile-container">
+    <span class="close-icon" id="closeBtn">&times;</span>
+    <h1>Información Personal</h1>
+    <div class="personal-info">
+      <label for="fullName">Nombre completo:</label>
+      <span id="fullName">John Doe</span>
+
+      <label for="email">Correo electrónico:</label>
+      <span id="email">johndoe@example.com</span>
+
+      <label for="phone">Teléfono:</label>
+      <span id="phone">+1 555-123-4567</span>
+    </div>
+
+    <h1>Historial de Crédito</h1>
+    <table class="credit-history">
+      <tr>
+        <th>Fecha</th>
+        <th>Descripción</th>
+        <th>Valor de la Deuda</th>
+      </tr>
+      <tr>
+        <td>2023-08-01</td>
+        <td>Compra de Electrodomésticos</td>
+        <td>$1,200.00</td>
+      </tr>
+      <tr>
+        <td>2023-07-15</td>
+        <td>Préstamo Personal</td>
+        <td>$5,000.00</td>
+      </tr>
+    </table>
+    <div class="total-debt">
+      <label>Total Adeudado:</label>
+      <span id="totalDebt">$6,200.00</span>
+    </div>
+  </div>
+
+  <script src="js/perfil.js"></script>
+</body>
+</html>

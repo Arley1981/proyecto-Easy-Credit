@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modal de Cambio de Contraseña</title>
+  <link rel="stylesheet" href="modal2.css">
+</head>
+<body>
+  <button id="openModalBtn">Cambiar Contraseña</button>
+
+  <div id="modal" class="modal2">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModalBtn">&times;</span>
+      <h2>Cambiar Contraseña</h2>
+      <form id="passwordChangeForm">
+        <label for="currentPassword">Contraseña actual:</label>
+        <input type="password" id="currentPassword" required>
+
+        <label for="newPassword">Nueva contraseña:</label>
+        <input type="password" id="newPassword" required>
+
+        <label for="confirmNewPassword">Confirmar nueva contraseña:</label>
+        <input type="password" id="confirmNewPassword" required>
+
+        <button type="submit">Guardar Cambios</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/modal2.js"></script>
+</body>
+</html>

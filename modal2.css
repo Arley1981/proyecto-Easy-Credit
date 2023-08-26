@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6e7174;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a6ccf5;
+  }
+
+  /* CSS ventana consulta cliente */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal3-content {
+    background-color: rgb(211, 220, 175);
+    border-radius: 8px;
+    padding: 90px;
+    max-width: 800px;
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 15px;
+  }
+  
+  input,
+  select {
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #393737;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #318ffa;
+    color: rgb(19, 18, 18);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #13dc82;
+  }
+  
+  /* Estilos para pantallas más pequeñas (Responsive) */
+  @media screen and (max-width: 600px) {
+    .modal3-content {
+      max-width: 90%;
+    }
+  }
+  
+  /* Estilos para el resultado de la consulta */
+  .query-result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
